@@ -8,7 +8,7 @@ from sklearn.ensemble import RandomForestRegressor, RandomForestClassifier
 # -----------------------
 # Load Cleaned Data
 # -----------------------
-pivot_data = pd.read_csv("data/africa_sovereign_debt_cleaned.csv")
+pivot_data = pd.read_csv("africa_sovereign_debt_cleaned.csv")
 
 # -----------------------
 # Streamlit Config
@@ -293,3 +293,4 @@ for i, row in recommendation_df.iterrows():
 # -----------------------
 st.subheader("Raw Data Table")
 st.dataframe(df_scenario)
+
